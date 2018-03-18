@@ -12,6 +12,7 @@
 		956EB636205EEE92005DC7D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956EB634205EEE92005DC7D0 /* Main.storyboard */; };
 		956EB638205EEE92005DC7D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956EB637205EEE92005DC7D0 /* Assets.xcassets */; };
 		956EB63B205EEE92005DC7D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956EB639205EEE92005DC7D0 /* LaunchScreen.storyboard */; };
+		956EB643205EF10E005DC7D0 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956EB642205EF10E005DC7D0 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		956EB637205EEE92005DC7D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		956EB63A205EEE92005DC7D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		956EB63C205EEE92005DC7D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956EB642205EF10E005DC7D0 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				956EB630205EEE92005DC7D0 /* AppDelegate.swift */,
 				956EB632205EEE92005DC7D0 /* ViewController.swift */,
+				956EB642205EF10E005DC7D0 /* CanvasViewController.swift */,
 				956EB634205EEE92005DC7D0 /* Main.storyboard */,
 				956EB637205EEE92005DC7D0 /* Assets.xcassets */,
 				956EB639205EEE92005DC7D0 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				956EB633205EEE92005DC7D0 /* ViewController.swift in Sources */,
+				956EB643205EF10E005DC7D0 /* CanvasViewController.swift in Sources */,
 				956EB631205EEE92005DC7D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GR7A27J66;
 				INFOPLIST_FILE = Canvas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MarkKinoshita.Canvas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GR7A27J66;
 				INFOPLIST_FILE = Canvas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MarkKinoshita.Canvas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
